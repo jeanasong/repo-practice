@@ -1,0 +1,54 @@
+/* 
+
+title {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 30pt;
+}
+
+ol {
+    font-style: bold;
+}
+
+body {
+    background-color: silver;
+}
+
+.favList {
+    color: purple;
+}
+
+#jerryList {
+    color: brown;
+}
+
+#div1 {
+    background-color: gold;
+}
+
+#div2 {
+    background-color: yellow;
+}
+
+#div3 {
+    background-color: sandybrown;
+}
+
+#div4 {
+    background-color: gray;
+}
+
+#div1, #div2, #div3, #div4 {
+    background-color: green;
+}
+
+table {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+*/
+
