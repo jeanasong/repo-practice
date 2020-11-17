@@ -52,3 +52,21 @@ table {
 
 */
 
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #007bbf;
+  display: flex;
+  border: solid;
+  juctify-content: center;
+}
+
+.box {
+  display: flex;
+  width: 20%;
+  height: 300px;
+  background: yellow;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
