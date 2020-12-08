@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Src 5 images then create 2 buttons & call plusDivs() on each
+Pass -1 for the back button and pass+1 for the forward button-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jade Senior Frontend Developer Manager</title>
+  </head>
+  <body>
+    <img id= 'my-image' alt="img" src="https://miro.medium.com/max/974/1*7vDodW4w1sFMHYE3dTFmvA.png">
+    <button onclick="plusDivs(-1) ">back</button>
+    <button onclick="plusDivs(1) ">forward</button>
+    <script>
+     let i =0;
+      function plusDivs(x){
+        var images = ["https://miro.medium.com/max/974/1*7vDodW4w1sFMHYE3dTFmvA.png", 
+        "https://media.gettyimages.com/photos/suburban-house-picture-id1156192691?s=612x612", 
+        "https://d3nfwcxd527z59.cloudfront.net/content/uploads/2020/03/11081321/Didier-Drogba-Chelsea.jpg", 
+        "https://s.hs-data.com/bilder/teamfotos/640x360/544.jpg", 
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"] // alt="Italian Trulli", alt="Apartment house", alt="Drogba", alt="chelsea",alt="Cameroon flag" 
+        if (x>0){  //is x = 1 && is index<4
+          if (i<4){
+            i++;
+          }else {
+            i=0;
+          }
+        }
+        if (x<0){  //is x = -1 && is index>0
+          if (i>0) {
+            i--;
+          }else {
+            i=4;
+          }
+      }
+      document.getElementById('my-image').src = images[i];
+      console.log(i);
+    }
+    </script>
+  </body>
+</html>

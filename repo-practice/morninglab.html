@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank you</title>
+    </head>
+    <body>
+        <div>
+            <input id="input1"type="text" value="">
+            <input id="input2"type="text" value="">
+            <input id="sum"type="text" value="">
+        </div>
+        <button onclick="Addition()">Addition</button>
+        <button onclick="subtraction()">subtraction</button>
+        <button onclick="multiplication()">multiplication</button>
+        <button onclick="Division()">Division</button>
+        <button onclick="Average()">Average</button>
+        <button onclick="Clear('a', 'b', 'output')">Clear</button>
+        
+        <script type="text/javascript">
+
+        function getVal() {
+            return number(document.getElementById(elemnt).value);
+        }
+
+            function Addition(str) {
+                let a = num1("a");
+                let b = num2("b");
+                let c = num3("c");
+                console.log(a + b + c, "a", "b", "c")
+            }
+            function subtraction(str) {
+                let a = num1("a");
+                let b = num2("b");
+                let c = num3("c");
+                console.log(a - b, "a", "b", "c");
+            }
+            function multplication(str) {
+                let a = num1("a");
+                let b = num2("b");
+                let c = num3("c");
+                console.log(a * b, "a", "b", "c");
+            }
+            function Division(str) {
+                let a = num1("a");
+                let b = num2("b");
+                let c = num3("c");
+                console.log(a / b, "a", "b", "c");
+            }
+            function average(str) {
+                let a = num1("a");
+                let b = num2("b");
+                let c = num3("c");
+                console.log(1 % b, "a", "b", "c");
+            }
+            console.log()
+        </script>
+    </body>
+</html>

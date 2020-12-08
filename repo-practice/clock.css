@@ -1,0 +1,27 @@
+body {
+    background-image: url('/Users/emilynunes/Desktop/PerScholas/Week2Hw3/img/christmas.jpg');
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container > .circle {
+      /* flex: 0 0 32%; */
+      /*width: 200px;
+      height: 200px;
+      border-radius: 50%; */
+      /* border-radius: 100px; */
+      border-radius: 50%;
+      width: 100%;
+      padding-bottom: 100%;
+      background-color: #48a089;
+      display: flex;
+    }
+    .circle:hover {
+      opacity: 0.3;
+      background-color: blue;
+    }
